@@ -24,14 +24,14 @@ public class I_LoopingWhile {
 //        #1 while-do
         int counter=1;
         while (counter<10) {
-            System.out.println(counter);
+            System.out.println("Counter : "+counter);
             counter++;
         }
         
 //        #2 do-while
         counter = 1;
         do {
-            System.out.println(counter);
+            System.out.println("Counter : "+counter);
             counter++;
         } while (counter<10);
     }
