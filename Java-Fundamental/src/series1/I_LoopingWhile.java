@@ -11,19 +11,28 @@ package series1;
  */
 public class I_LoopingWhile {
     public static void main(String[] args) {
+        System.out.println("Counter : 1");
+        System.out.println("Counter : 2");
+        System.out.println("Counter : 3");
+        System.out.println("Counter : 4");
+        System.out.println("Counter : 5");
+        System.out.println("Counter : 6");
+        System.out.println("Counter : 7");
+        System.out.println("Counter : 8");
+        System.out.println("Counter : 9");
+
 //        #1 while-do
-        int counter=0; //ganti dengan angka 10 atau 1
-        while (counter<10) {            
-//            System.out.println(counter);
-//            counter++;
-            
-            System.out.println(counter++);
+        int counter=1;
+        while (counter<10) {
+            System.out.println(counter);
+            counter++;
         }
         
 //        #2 do-while
-        counter = 10; //ganti dengan angka 10 atau 1
+        counter = 1;
         do {
-            System.out.println(counter++);
+            System.out.println(counter);
+            counter++;
         } while (counter<10);
     }
 }

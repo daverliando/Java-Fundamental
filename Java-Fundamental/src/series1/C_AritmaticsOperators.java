@@ -22,13 +22,13 @@ public class C_AritmaticsOperators {
         System.out.println(x % y);
 
         int angka3 = 5;
-        System.out.println("Hasil Post Increment : " + angka3++); // Post-Increment
+        System.out.println("Hasil Post Increment : " + angka3++); // Post-Increment || Cetak 5
         angka3 = 5;
-        System.out.println("Hasil Pre Increment : " + ++angka3); // Pre-Increment
+        System.out.println("Hasil Pre Increment : " + ++angka3); // Pre-Increment || Cetak 6
         angka3 = 5;
-        System.out.println("Hasil Post Decrement : " + angka3--); // Post-Decrement
+        System.out.println("Hasil Post Decrement : " + angka3--); // Post-Decrement || Cetak 5
         angka3 = 5;
-        System.out.println("Hasil Pre Decrement : " + --angka3); // Pre-Increment
+        System.out.println("Hasil Pre Decrement : " + --angka3); // Pre-Increment || Cetak 4
 
 //        Bonus -> Assignment Operator
         x = 5;
