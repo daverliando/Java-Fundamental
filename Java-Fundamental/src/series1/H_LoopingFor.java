@@ -19,8 +19,8 @@ public class H_LoopingFor {
 //        }
 
 //        #1 For Loop
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Count is : " + i);
+        for (int i = 1; i < 10; i++) {
+            System.out.println("Counter : " + i);
         }
 
 //        #2 Enhanced For Loop
