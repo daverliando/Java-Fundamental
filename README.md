@@ -16,3 +16,8 @@ Series #2 Object Oriented Programming
 4. Encapsulation (Constructor, Access Modifier)
 5. Abstraction (Abstract + Interface)
 6. Exception Handling
+
+Series #3 Generic, Collection & Stream
+1. Generic
+2. Collection
+3. Stream
