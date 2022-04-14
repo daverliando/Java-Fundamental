@@ -15,7 +15,6 @@ Series #2 Object Oriented Programming
 3. Polymorphism (Overriding & Overloading)
 4. Encapsulation (Constructor, Access Modifier)
 5. Abstraction (Abstract + Interface)
-6. Exception Handling
 
 Series #3 Generic, Collection & Stream
 1. Generic
