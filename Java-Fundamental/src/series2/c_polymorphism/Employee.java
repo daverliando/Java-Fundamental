@@ -12,7 +12,7 @@ import series2.entities.*;
  *
  * @author DevidBa
  */
-//Superclass
+//Sub Class
 public class Employee extends Person {
 
     String employeeId;
@@ -27,6 +27,7 @@ public class Employee extends Person {
     }
     
     //Method overriding, nama method, parameter dan return type pada subclass sama dengan superclass
+    @Override
     void perkenalkanDiri(){
         //Call parent class or super class attribure
         System.out.println("Hai nama saya : "+ name);

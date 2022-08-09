@@ -5,10 +5,6 @@
  */
 package series2.d_encapsulation;
 
-import series2.c_polymorphism.*;
-import series2.b_inheritance.*;
-import series2.entities.*;
-
 /**
  *
  * @author DevidBa
@@ -36,19 +32,17 @@ public class Person{
     public String toString() {
         return "Person{" + "name=" + name + ", age=" + age + '}';
     }
-    
-    
 
-    //akses set data menggunakan method setter
+    //akses get data menggunakan method getter
     public String getName() {
         return name;
     }
 
+    //akses set data menggunakan method setter
     public void setName(String name) {
         this.name = name;
     }
 
-    //akses get data menggunakan method getter
     public int getAge() {
         return age;
     }

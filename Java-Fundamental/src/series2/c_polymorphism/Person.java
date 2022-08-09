@@ -12,6 +12,7 @@ import series2.entities.*;
  *
  * @author DevidBa
  */
+//Superclass
 public class Person{
     //Attribute or Properties
     String name;

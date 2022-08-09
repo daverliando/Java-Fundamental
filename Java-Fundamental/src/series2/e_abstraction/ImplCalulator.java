@@ -3,21 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package series3.a_generics;
+package series2.e_abstraction;
 
 /**
  *
  * @author DevidBa
- * @param <T>
  */
-public class CacheAny <T> {
-    private T t;
+public class ImplCalulator implements InterfaceCalculator {
 
-    public T get() {
-        return t;
-    }
-
-    public void add(T t) {
-        this.t = t;
+    @Override
+    public int penjumlahan(int a, int b) {
+        return a + b;
     }
 }

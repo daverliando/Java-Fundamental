@@ -14,7 +14,8 @@ public class D_ComparisonOperators {
         int x = 7;
         int y = 3;
         
-        System.out.println(x==y);
+        boolean result = x==y; 
+        System.out.println(result);
         System.out.println(x!=y);
         System.out.println(x<y);
         System.out.println(x<=y);

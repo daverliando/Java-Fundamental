@@ -21,9 +21,21 @@ public class Example01 {
     public static void main(String[] args) {
         List<Person> persons = Data.getData();
         
-        //Print with foreach
+        //For Loop
+//        for (int i = 0; i < persons.size(); i++) {
+//            System.out.println(persons.get(i));
+//        }
+        
+        //Enhanced For Loop
+//        for (Person p : persons) {
+//            System.out.println(p);
+//        }
+        
+        //Foreach
 //        persons.forEach(p -> System.out.println(p));
-//        System.out.println("===================");
+        
+        //Method Reference
+//        persons.forEach(System.out::println);
         
 //        Consumer c = x -> System.out.println(x);
 //        persons.forEach(c);
@@ -33,9 +45,11 @@ public class Example01 {
 //        Stream<Person> s = persons.stream();
         
 //      WHERE age >= 25
-//        persons.stream()
-//                .filter(p -> p.getAge() >= 25)
-//                .forEach(c);
+        persons.stream()
+//                .filter(p -> p.getCity().startsWith("P"))
+//                .filter(p -> p.getCity().charAt(0)=='P')
+                .filter(p -> p.getCity().substring(0, 1).equals("P"))
+                .forEach(x -> System.out.println(x));
         
 //        Save to List
 //        System.out.println("===================");
@@ -46,22 +60,22 @@ public class Example01 {
         
 //        Stream Filter Version
         List<Person> selectedPerson = persons.stream()
-                .filter(select)
+                .filter(p -> p.getAge() > 21 && p.getCity().contains("a"))
                 .collect(Collectors.toList());
         
-        List<Person> selecetedPerson2 = new ArrayList<>();
+//        List<Person> selecetedPerson2 = new ArrayList<>();
         
-        for (Person person : persons) {
-            if(person.getAge()>=25){
-                selecetedPerson2.add(person);
-            }
-        }
-        
-        for (Person person : selectedPerson) {
-            System.out.println("===================");
-            System.out.println("Nama : " + person.getName());
-            System.out.println("Umur : " + person.getAge());
-            System.out.println("Kota : " + person.getCity());
-        }
+//        for (Person person : persons) {
+//            if(person.getAge()>=25){
+//                selecetedPerson2.add(person);
+//            }
+//        }
+//        
+//        for (Person person : selectedPerson) {
+//            System.out.println("===================");
+//            System.out.println("Nama : " + person.getName());
+//            System.out.println("Umur : " + person.getAge());
+//            System.out.println("Kota : " + person.getCity());
+//        }
     }
 }

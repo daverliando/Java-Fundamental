@@ -16,13 +16,13 @@ public class c_QueueExample {
     public static void main(String[] args) {
         //LIFO -> Last In First Out
         Deque<String> listNama = new ArrayDeque<>();
-//        listNama.push("Dev");
-//        listNama.push("Joko");
-//        listNama.push("Aji");
-//        
-//        for (String nama : listNama) {
-//            System.out.println(nama);
-//        }
+        listNama.push("Dev");
+        listNama.push("Joko");
+        listNama.push("Aji");
+        
+        for (String nama : listNama) {
+            System.out.println(nama);
+        }
         
         //FIFO -> First In First Out
         Deque<String> listNama2 = new ArrayDeque<>();

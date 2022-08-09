@@ -5,6 +5,8 @@
  */
 package series1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author DevidBa
@@ -22,10 +24,10 @@ public class I_LoopingWhile {
         System.out.println("Counter : 9");
 
 //        #1 while-do
-        int counter=10;
+        int counter=0;
         while (counter<10) {
-            System.out.println("Counter : "+counter);
             counter++;
+            System.out.println("Counter : "+counter);
         }
         
 //        #2 do-while

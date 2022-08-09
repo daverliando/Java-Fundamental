@@ -15,7 +15,7 @@ import java.util.List;
 public class Example01 {
     public static void main(String[] args) {
         String nama = "Dev";
-
+        
         //String -> Type (T)
         //List -> Interface
         //Arraylist -> Concreate Class

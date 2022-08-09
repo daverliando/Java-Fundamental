@@ -16,7 +16,7 @@ public class B_ConstantaAndIdentifier {
     public static void main(String[] args) {
 //        constanta = tampungan untuk menyimpan data yang statis (tidak dapat berubah)
         final float phi = 3.14f;
-        phi = 3.15;
+        phi = 3.15f;
 //        Baris diatas menunjukkan Constanta tidak ada dirubah;
         
     }

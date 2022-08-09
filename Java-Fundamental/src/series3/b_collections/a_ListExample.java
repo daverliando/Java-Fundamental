@@ -15,8 +15,8 @@ import java.util.List;
  */
 public class a_ListExample {
     public static void main(String[] args) {
-        List<String> listNama = new ArrayList<>();
-        List<String> listNama2 = new LinkedList<>();
+        ArrayList<String> listNama = new ArrayList<>();
+        LinkedList<String> listNama2 = new LinkedList<>();
         listNama.add("Dev");    //index 0
         listNama.add("Joko");   //index 1
         listNama.add("Aji");    //index 2

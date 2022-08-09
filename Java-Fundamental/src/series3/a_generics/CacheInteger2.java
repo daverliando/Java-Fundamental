@@ -8,16 +8,13 @@ package series3.a_generics;
 /**
  *
  * @author DevidBa
- * @param <T>
  */
-public class CacheAny <T> {
-    private T t;
-
-    public T get() {
-        return t;
-    }
-
-    public void add(T t) {
-        this.t = t;
+public class CacheInteger2<T> extends CacheAny<T> {
+    
+    Integer number;
+    T[] test;
+    
+    public void tambah(int num) {
+        this.number = num;
     }
 }

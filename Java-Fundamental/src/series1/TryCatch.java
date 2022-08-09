@@ -9,20 +9,12 @@ package series1;
  *
  * @author DevidBa
  */
-public class BelajarJavaProgramming {
-
+public class TryCatch {
     public static void main(String[] args) {
-/**
- *      Comment yang panjang,
- *      Seperti ini contohnya
- *      [Bisa gunakan shortcut /** + Enter]
- */
-
-//        Comment [Bisa gunakan shortcut Ctrl+Shift+C]
-        System.out.println("Saya dengan belajar Java");
+        try {
+            int x = 9 / 0;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
-
-
-
-        

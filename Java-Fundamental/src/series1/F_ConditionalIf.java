@@ -27,18 +27,18 @@ public class F_ConditionalIf {
             System.out.println("Aktif");
         }
 //        #3 if-elseif-else
-        if (ipk > 3.9) {
+        if (ipk > 3.9f) {
             System.out.println("Mendapatkan beasiswa 100%");
-        } else if (ipk > 3.5) {
+        } else if (ipk > 3.5f) {
             System.out.println("Mendapatkan beasiswa 80%");
         } else {
             System.out.println("Tidak mendapatkan beasiswa");
         }
 //        #4 nestedIf
         if (durasiPendidikan < 4) {
-            if (ipk > 3.9) {
+            if (ipk > 3.9f) {
                 System.out.println("Lulus Cumlaude");
-            } else if (ipk > 3.5) {
+            } else if (ipk > 3.5f) {
                 System.out.println("Lulus berprestasi");
             }
         } else if (durasiPendidikan == 4) {
