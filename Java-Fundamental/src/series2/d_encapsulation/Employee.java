@@ -5,10 +5,6 @@
  */
 package series2.d_encapsulation;
 
-import series2.c_polymorphism.*;
-import series2.b_inheritance.*;
-import series2.entities.*;
-
 /**
  *
  * @author DevidBa
