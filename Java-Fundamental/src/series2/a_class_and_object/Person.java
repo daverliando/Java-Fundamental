@@ -10,11 +10,11 @@ package series2.a_class_and_object;
  * @author DevidBa
  */
 public class Person {
+
     //Attribute or Properties
     String name;
     int age;
 
-    
     //Constructor
     public Person() {
         System.out.println("Create new object");
@@ -25,10 +25,10 @@ public class Person {
         this.name = name;   //this.name -> mengacu pada Person.name
         this.age = age;
     }
-    
+
     //Behaviour or Method
-    void perkenalkanDiri(){
-        System.out.println("Hai nama saya : "+ name);
-        System.out.println("Umur saya     : "+ age);
+    void perkenalkanDiri() {
+        System.out.println("Hai nama saya : " + name);
+        System.out.println("Umur saya     : " + age);
     }
 }

@@ -3,16 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package series2.e_abstraction;
+package series2.e_abstraction.interfaces;
 
 /**
  *
  * @author DevidBa
  */
-public class ImplCalulator2 extends AbstractCalculator {
+public class ImplCalculator2 implements InterfaceCalculator{
 
     @Override
     public int penjumlahan(int a, int b) {
-        return a + b;
+        int c = a+b;
+        return c;
     }
+    
 }

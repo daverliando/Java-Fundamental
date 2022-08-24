@@ -9,37 +9,29 @@ package series2.d_encapsulation;
  *
  * @author DevidBa
  */
-public class Person{
+public class Person {
     //Attribute dengan access modifier private
     private String name;
     private int age;
 
     public Person() {
-        System.out.println("Create new object");
     }
-    
+
     public Person(String name, int age) {
         this.name = name;   //this.name -> mengacu pada Person.name
         this.age = age;
     }
-    
-    void perkenalkanDiri(){
-        System.out.println("Hai nama saya : "+ name);
-        System.out.println("Umur saya     : "+ age);
+
+    void perkenalkanDiri() {
+        System.out.println("Hai nama saya : " + name);
+        System.out.println("Umur saya     : " + age);
     }
 
-    @Override
-    public String toString() {
-        return "Person{" + "name=" + name + ", age=" + age + '}';
-    }
-
-    //akses get data menggunakan method getter
-    public String getName() {
+    public String getName() { //mengambil nilai dengan method getter
         return name;
     }
 
-    //akses set data menggunakan method setter
-    public void setName(String name) {
+    public void setName(String name) { //memberikan nilai dgn method setter
         this.name = name;
     }
 
@@ -49,5 +41,10 @@ public class Person{
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" + "name=" + name + ", age=" + age + '}';
     }
 }

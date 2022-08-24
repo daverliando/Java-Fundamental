@@ -5,12 +5,11 @@
  */
 package series2.b_inheritance;
 
-import series2.entities.*;
-
 /**
  *
  * @author DevidBa
  */
+//Person -> Super Class
 public class Person{
     //Attribute or Properties
     String name;

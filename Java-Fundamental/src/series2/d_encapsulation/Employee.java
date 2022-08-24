@@ -23,23 +23,6 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    //Method overriding, nama method, parameter dan return type pada subclass sama dengan superclass
-    void perkenalkanDiri() {
-        //Call parent class or super class attribure
-        System.out.println("Hai nama saya : " + super.getName());
-        System.out.println("Umur saya     : " + super.getAge());
-
-        //Call child class or subclass attribure
-        System.out.println("Employee Id   : " + employeeId);
-        System.out.println("Job Tile      : " + jobTitle);
-        System.out.println("Salary        : " + salary);
-    }
-
-    @Override
-    public String toString() {
-        return "Employee{" + "employeeId=" + employeeId + ", jobTitle=" + jobTitle + ", salary=" + salary + '}';
-    }
-
     public String getEmployeeId() {
         return employeeId;
     }
@@ -62,5 +45,22 @@ public class Employee extends Person {
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+    
+    //Method overriding, nama method, parameter dan return type pada subclass sama dengan superclass
+    void perkenalkanDiri() {
+        //Call parent class or super class attribure
+        System.out.println("Hai nama saya : " + super.getName());
+        System.out.println("Umur saya     : " + super.getAge());
+
+        //Call child class or subclass attribure
+        System.out.println("Employee Id   : " + employeeId);
+        System.out.println("Job Tile      : " + jobTitle);
+        System.out.println("Salary        : " + salary);
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" + "employeeId=" + employeeId + ", jobTitle=" + jobTitle + ", salary=" + salary + '}';
     }
 }

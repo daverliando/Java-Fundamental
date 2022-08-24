@@ -5,14 +5,19 @@
  */
 package series2.e_abstraction;
 
+import series2.e_abstraction.abstracts.ImplCalculatorAbs;
+import series2.e_abstraction.abstracts.AbstractCalculator;
+import series2.e_abstraction.interfaces.ImplCalculator;
+import series2.e_abstraction.interfaces.InterfaceCalculator;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
  *
  * @author DevidBa
  */
-public class Example01 {
+public class Example05 {
 //    3 Komponnen Abstraction
 //    1. Abstraction (Abstract Class / Interface)
 //    2. Implementation (extends / implements)
@@ -20,15 +25,16 @@ public class Example01 {
     
     public static void main(String[] args) {
         List<String> names = new ArrayList<>();
+        List<String> names2 = new LinkedList<>();
         
-        ImplCalulator impC1 = new ImplCalulator();        //Non Interface
-        ImplCalulator2 impC2 = new ImplCalulator2();        //Non Interface
-        
-//        Interface obj = new ImplementClass();
-        InterfaceCalculator ic = new ImplCalulator();   //Pengunaan Interface
+        ImplCalculator impC1 = new ImplCalculator();        //Non Interface
+        ImplCalculatorAbs impC2 = new ImplCalculatorAbs();        //Non Interface
         
 //        Interface obj = new ImplementClass();
-        AbstractCalculator ac = new ImplCalulator2();   //Penggunaan Abstract Class
+        InterfaceCalculator ic = new ImplCalculator();   //Pengunaan Interface
+        
+//        Interface obj = new ImplementClass();
+        AbstractCalculator ac = new ImplCalculatorAbs();   //Penggunaan Abstract Class
         
     }
 }

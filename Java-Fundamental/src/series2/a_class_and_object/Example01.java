@@ -13,13 +13,21 @@ public class Example01 {
     public static void main(String[] args) {
 //        new Person() -> proses create new object, call constructor()
         Person dev = new Person();
+//        [Alt 1] set data to object
         dev.name = "Dev";
         dev.age = 22;
-        
+//        get data
+        System.out.println(dev.name + " "+dev.age);
+//        call method
         dev.perkenalkanDiri();
 //=====================================================        
+//        [Alt 2] set data with constructor
         Person john = new Person("john", 25);
        
+//        get data
+        System.out.println(john.name + " "+john.age);
+
+//        call method
         john.perkenalkanDiri();
     }
 }
