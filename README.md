@@ -9,7 +9,7 @@ Series #1 Java Basic Programming
 6. Iteration / Loop
 7. Method(void + non-void)
 
-PPT : https://docs.google.com/presentation/d/1xOg5P5REq4ietTuxkZnI6VgX-eagrcVh/edit?usp=sharing&ouid=116263516397390930901&rtpof=true&sd=true
+PPT : https://bit.ly/MCC-JF1
 
 
 Series #2 Object Oriented Programming
@@ -19,11 +19,11 @@ Series #2 Object Oriented Programming
 4. Encapsulation (Constructor, Access Modifier)
 5. Abstraction (Abstract + Interface)
 
-PPT : https://docs.google.com/presentation/d/1bCkMQDfTIWSIeYgMFNINWJn0emgQdkgy/edit?usp=sharing&ouid=116263516397390930901&rtpof=true&sd=true
+PPT : https://bit.ly/MCC-JF2
 
 Series #3 Generic, Collection & Stream
 1. Generic
 2. Collection
 3. Stream
 
-PPT : https://docs.google.com/presentation/d/11rLp8WaQVfI3t10S6N0c1YMrc3GMGm_F/edit?usp=sharing&ouid=116263516397390930901&rtpof=true&sd=true
+PPT : https://bit.ly/MCC-JF3
