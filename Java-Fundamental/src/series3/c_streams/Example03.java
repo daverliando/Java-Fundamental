@@ -14,7 +14,7 @@ import java.util.List;
  * Sorting
  * 
  */
-public class Example02 {
+public class Example03 {
     public static void main(String[] args) {
         List<Person> persons = Data.getData();
         
