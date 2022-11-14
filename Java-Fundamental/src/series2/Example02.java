@@ -5,6 +5,9 @@
  */
 package series2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author DevidBa
@@ -32,5 +35,8 @@ public class Example02 {
 
 //        Mahasiswa.nama = "aldo";
 //        Mahasiswa.perkenalan();
+
+        List<String> names = new ArrayList<>();
+
     }
 }
